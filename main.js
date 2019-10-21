@@ -1,30 +1,39 @@
 function changeLast(arr , item) {
-  // let newArr = arr.pop(arr);
-  // return newArr.push(item);
-    return arr.pop.push(item)
-
+  arr[arr.length - 1] = item;
 }
 
+
 function addMeToEnd(arr) {
-  return arr.push('Colin');
+  arr.push('Colin');
 }
 
 function addMeToStart(arr) {
-  return arr.unshift('Colin');
+  arr.unshift('Colin');
 }
 
 function changeAllValuesTo(arr, item) {
   return arr.fill(item);
 }
 
-function oddOrEven() {
-  if (arr[i] % 2 ===0){
-    return arr.
+function oddOrEven(arr) {
+  let i = 0
+  while(i < arr.length){
+  if (arr[i] % 2 === 0){
+    r[i] = 'even'
+  } else{
+    r[i] = 'odd'
   }
+  i = i + 1
+}
 }
 
-function changeNextThreeToValue() {
-
+function changeNextThreeToValue(start, arr, num) {
+  let i = start;
+  while ( i < start + 3 ){
+    arr [i] = num;
+    i = i + 1
+  }
+  
 }
 
 module.exports = {
