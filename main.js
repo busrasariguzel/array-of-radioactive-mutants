@@ -19,9 +19,9 @@ function oddOrEven(arr) {
   let i = 0
   while(i < arr.length){
   if (arr[i] % 2 === 0){
-    r[i] = 'even'
+    arr[i] = 'even'
   } else{
-    r[i] = 'odd'
+    arr[i] = 'odd'
   }
   i = i + 1
 }
